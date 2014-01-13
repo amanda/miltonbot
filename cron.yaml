@@ -1,0 +1,5 @@
+cron:
+- description: daily noon tweet
+  url: /miltonbot
+  schedule: every day 12:00
+  timezone: America/New_York
