@@ -1,10 +1,10 @@
 from twython import Twython
 from pymarkovchain import MarkovChain
 
-APP_KEY = 'xuPB9BcyotCdrB5t13K8Q'
-APP_SECRET = 'TtmtMcYrNGpi7fhgr8pDkmpPbUOy9xuhTVulbuM'
-OAUTH_TOKEN = '2285416724-Bz9wfxHPDKFD15ewhirC39upOO9GN4fE8xzHYTM'
-OAUTH_TOKEN_SECRET = 'gC2XSxvur8PfgkHi2C9kAkHQoffWvdMrcZ7l9KWUy4pxt'
+APP_KEY = 'blah'
+APP_SECRET = 'blah'
+OAUTH_TOKEN = 'blah'
+OAUTH_TOKEN_SECRET = 'blah'
 
 twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
