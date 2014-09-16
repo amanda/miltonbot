@@ -21,7 +21,7 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
     	self.response.headers['Content-Type'] = 'text/plain'
         self.response.write('Hello world!')
-        bot = milton_bot()
+        statusUpdate = milton_bot.tweet()
 
 app = webapp2.WSGIApplication([
     ('/miltonbot', MainHandler)

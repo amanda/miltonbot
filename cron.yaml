@@ -3,3 +3,13 @@ cron:
   url: /miltonbot
   schedule: every day 12:00
   timezone: America/New_York
+
+- description: daily 5pm tweet
+  url: /miltonbot
+  schedule: every day 17:00
+  timezone: America/New_York
+
+- description: daily 10pm tweet
+  url: /miltonbot
+  schedule: every day 22:00
+  timezone: America/New_York
