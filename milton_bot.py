@@ -15,12 +15,11 @@ mc.generateDatabase(open("./milton-paradise.txt").read())
 def remove_punc(a_string):
 	punc = tuple(string.punctuation)
 	if a_string.endswith(punc):
-		a_string = a_string[:-1]
+		a_string = a_string[:-1].strip()
 	return a_string
 
 def tweet():
-    paradise_string = mc.generateString()
-    remove_punc(paradise_string)
+    paradise_string = remove_punc(mc.generateString())
     twitter.update_status(status=paradise_string)
 
 if __name__ == '__main__':
